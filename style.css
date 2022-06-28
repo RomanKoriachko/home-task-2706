@@ -347,3 +347,14 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     transition: 0.3s;
 }
+
+.load-more {
+    width: 205px;
+    margin: 40px auto 90px auto
+}
+.load-more a {
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+
+}
