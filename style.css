@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(../ht-7/images/background.png);
+    background-image: url(images/background.png);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -135,7 +135,7 @@ body {
     position: absolute;
     top: 5px;
     right: 5px;
-    background-image: url(/hometask/ht-7/images/search.png);
+    background-image: url(images/search.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -148,7 +148,7 @@ body {
     width: 40px;
     height: 40px;
     border: none;
-    background-image: url(/hometask/ht-7/images/cart-blue.png);
+    background-image: url(images/cart-blue.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -273,14 +273,14 @@ body {
 .scale {
     top: 10px;
     right: 10px;
-    background-image: url(/hometask/ht-7/images/scale_blue.png);
+    background-image: url(images/scale_blue.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 .like {
     top: 50px;
     right: 10px;
-    background-image: url(/hometask/ht-7/images/like_blue.png);
+    background-image: url(images/like_blue.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -289,10 +289,10 @@ body {
     transition: 0.3s;
 }
 .scale:hover {
-    background-image: url(/hometask/ht-7/images/scale_white.png);
+    background-image: url(images/scale_white.png);
 }
 .like:hover {
-    background-image: url(/hometask/ht-7/images/like_white.png);
+    background-image: url(images/like_white.png);
 }
 
 .product-header {
@@ -337,7 +337,7 @@ body {
 }
 .add-to-cart-btn {
     margin-top: 15px;
-    background-image: url(/hometask/ht-7/images/cart-white.png);
+    background-image: url(images/cart-white.png);
     background-repeat: no-repeat;
     background-position: 170px;
     padding-left: 0;
