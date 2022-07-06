@@ -418,3 +418,15 @@ input[type="checkbox"]:checked + label:before {
     font-size: 36px;
     color: white;
 }
+
+.footer {
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.75);
+    line-height: 100px;
+}
+.footer-text {
+    color: #2c71b8;
+    font-size: 21px;
+    width: 165px;
+    margin: 0 auto;
+}
