@@ -345,6 +345,10 @@ input[type="checkbox"]:checked + label:before {
     background-position: center;
     background-repeat: no-repeat;
 }
+.like-active{
+    background-image: url(images/like_white.png);
+    background-color: #2c71b8;
+}
 .product-img-btn:hover {
     background-color: #2c71b8;
     transition: 0.3s;
