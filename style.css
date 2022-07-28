@@ -511,31 +511,59 @@ input[type="checkbox"]:checked + label:before {
     z-index: 20;
 }
 .modal-block {
-    width: 300px;
+    width: 400px;
     margin: 100px auto;
-    height: 200px;
-    border: 1px solid gray;
+    height: 270px;
+    border: 1px solid white;
     background-color: white;
     border-radius: 6px;
     padding: 15px;
+    color: #2c71b8;
+    font-weight: bold;
 }
-.btn-close {
+.btn-close-block {
     display: flex;
     justify-content: flex-end;
+}
+.btn-close {
     cursor: pointer;
 }
+.form-title {
+    font-size: 24px;
+}
 .form-title,.form-field {
-    margin: 15px 0;
+    margin: 20px 0;
 }
 .form-field input {
     width: 100%;
     height: 30px;
     padding: 5px;
+    border: 1px solid #2c71b8;
+    color: #2c71b8;
+    outline: #225c96;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.form-field input::placeholder {
+    color: #225c96;
 }
 .form-button {
     display: flex;
     justify-content: center;
-
+}
+.call-btn {
+    width: 150px;
+    height: 30px;
+    background-color: #2c71b8;
+    color: white;
+    border: 2px solid #2c71b8;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.call-btn:hover {
+    color: #2c71b8;
+    background-color: transparent;
 }
 
 .show{

@@ -51,3 +51,9 @@ $(document).ready(function () {
     dots: true,
   });
 });
+
+window.onscroll = function () {
+  if (window.scrollY >= document.body.scrollHeight / 2) {
+    modal.classList.add("show");
+  }
+};
